@@ -1,0 +1,2389 @@
+<html lang="en"><head><meta charset="utf-8"><title> | Streak - Systematic Trading</title><meta name="viewport" content="initial-scale=1.0, width=device-width"><meta name="description" content=""><meta name="keywords" content=""><meta name="title" content=" | Streak - Systematic Trading"><meta property="og:url" content="https://streak.tech/scanner/"><meta property="og:title" content=" | Streak - Systematic Trading"><meta name="og:description" content=""><meta name="twitter:description" content=""><meta name="twitter:title" content=""><meta name="next-head-count" content="11"><meta charset="utf-8"><link rel="icon" href="/logo3.ico"><meta name="theme-color" content="#4184f3"><link rel="apple-touch-icon" href="/streak_192.png"><meta name="og:url" content="https://www.streak.tech"><meta name="og:image" content="/streak_192.png"><meta name="facebook-domain-verification" content="2t5nu821ptwr0izd3qqp872cldhi4l"><link rel="manifest" href="manifest.json"><link rel="icon" href="/logo3.ico" type="image/x-icon"><link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap"><link rel="stylesheet" data-href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap"><script async="" src="https://www.clarity.ms/s/0.8.0/clarity.js"></script><script type="text/javascript" async="" src="https://cdn.chatbot.com/widget/plugin.js"></script><script async="" src="//track.streak.ninja/matomo.js"></script><script async="" src="https://www.clarity.ms/tag/kr82l30mjm"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-5LJDYS3ZB0"></script><script>
+            window.dataLayer = window.dataLayer || []
+            function gtag(){dataLayer.push(arguments)}
+            gtag('js', new Date());
+            gtag('config', 'G-5LJDYS3ZB0');
+        </script><script defer="" data-domain="streak.tech" src="https://analytics-op.streak.ninja/js/script.js"></script><script type="text/javascript">
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "kr82l30mjm");</script><script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+              var u = "//track.streak.ninja/";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '4']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+            })();
+        </script><script>
+            window._be = window._be || { };
+            window.__be = window.__be || { }
+            window.__be.id = "65c9c0c58776d300077a8e7c";
+            (function() {
+            var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+            be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+
+            window.BE_API = window.BE_API || {};
+
+            window.BE_API.onChatWindowOpen = function () {
+              const isLoggedIn = localStorage.getItem('isLoggedIn')
+              if(isLoggedIn === 'false'){
+                window.BE_API.closeChatWindow();
+                const event = new Event('chatbot-event')
+                window.dispatchEvent(event)
+                return
+            }
+
+            const userName = localStorage.getItem('userName')
+            const user = JSON.parse(userName) || {}
+            const userEmail = localStorage.getItem('userEmail')
+            const email = JSON.parse(userEmail) || {}
+            window.BE_API.setUserAttributes({
+              default_name: user.value.split(' ')[0],
+              default_email: email.value,
+            })
+            };
+
+            })();
+            </script><link rel="preload" href="/_next/static/css/18cd26d04e61bd58.css" as="style"><link rel="stylesheet" href="/_next/static/css/18cd26d04e61bd58.css" data-n-g=""><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-5cd94c89d3acac5f.js"></script><script src="/_next/static/chunks/webpack-af4706fb0560a384.js" defer=""></script><script src="/_next/static/chunks/framework-540f1b10bbe8b420.js" defer=""></script><script src="/_next/static/chunks/main-86461a59998d1af7.js" defer=""></script><script src="/_next/static/chunks/pages/_app-872765d46b986b88.js" defer=""></script><script src="/_next/static/chunks/pages/scanner/%5Bname%5D-e239866ed5d32f7e.js" defer=""></script><script src="/_next/static/CpdlkHZsLYmBkOkZ7W6yG/_buildManifest.js" defer=""></script><script src="/_next/static/CpdlkHZsLYmBkOkZ7W6yG/_ssgManifest.js" defer=""></script><script src="/_next/static/CpdlkHZsLYmBkOkZ7W6yG/_middlewareManifest.js" defer=""></script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap"><script type="text/javascript" src="https://cdn.chatbot.com/widget/polyfill.js" async=""></script><style data-jss="" data-meta="makeStyles">
+.jss1 {
+  border: 1px solid transparent;
+  padding: 6px 20px;
+  transition: all 0.3s var(--anim-func-ease);
+  vertical-align: top;
+}
+.jss1 .jss15 {
+  color: #FFF !important;
+}
+.jss2 {
+  border: 1px solid transparent;
+  padding: 6px 20px;
+}
+.jss3 {
+  border-color: #346FF3;
+  background-color: #346FF3;
+}
+.jss4 {
+  border-color: #3CBB00;
+  background-color: #3CBB00;
+}
+.jss5 {
+  border-color: #EB1D54;
+  background-color: #EB1D54;
+}
+.jss6 {
+  border-color: #00000080;
+  background-color: #00000080;
+}
+.jss7 {
+  border-color: #ff5722;
+  background-color: #ff5722;
+}
+.jss8 {
+  border-color: #FFF;
+}
+.jss9 {
+  border-color: #000;
+  background-color: #000;
+}
+.jss10 {
+  border-color: var(--linkColor);
+}
+.jss10:hover {
+  background-color: var(--blueLightBg);
+}
+.jss11 {
+  border-color: #3cbb0057;
+  background-color: #FFF !important;
+}
+.jss11 .jss15 {
+  color: #3CBB00 !important;
+}
+.jss12 {
+  border-color: #3CBB00;
+}
+.jss12:hover {
+  background-color: var(--greenLightBg);
+}
+.jss13 {
+  border-color: #EB1D54;
+}
+.jss13:hover {
+  background-color: var(--redLightBg);
+}
+.jss14 {
+  border-color: #ff5722;
+}
+.jss15 {
+  background-color: transparent;
+}
+.jss19 {
+  border-color: var(--btnDisabled);
+  background-color: var(--btnDisabled);
+}
+.jss20 {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.jss21 {
+  width: 100%;
+  max-width: 40px;
+}
+</style><style data-jss="" data-meta="p">
+.jss45 {
+  display: flex;
+  opacity: 0;
+  padding: 8px 12px 8px 20px;
+  min-width: 280px;
+  transition: all 1s var(--anim-func-bouncy);
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+.jss46 {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 50%;
+  justify-content: center;
+}
+.jss46:hover {
+  background-color: #00000012;
+}
+.jss47 {
+  top: 10px;
+  left: -1px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 50%;
+  justify-content: center;
+}
+.jss47:hover {
+  background-color: #00000012;
+}
+</style><style data-jss="" data-meta="v">
+.jss1077 {
+  position: relative;
+  border-radius: 6px;
+}
+.jss1078 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.jss1080 {
+  width: 100%;
+  border: 1px solid var(--inputBorder);
+  display: flex;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  text-align: left;
+  align-items: center;
+  border-radius: 6px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--inputLightBg);
+}
+.jss1081 {
+  border-color: var(--linkColor);
+}
+.jss1082 {
+  z-index: 99999;
+  position: fixed;
+  box-shadow: 0px 3px 20px var(--dropdownShadow);
+  transition: opacity 250ms cubic-bezier(0.34, 0.35, 0.03, 1.04);
+  border-radius: 10px;
+  background-color: var(--dropdownBg);
+}
+.jss1083 {
+  height: 100%;
+  overflow: auto;
+  border-radius: 6px;
+}
+.jss1084 {
+  padding: 10px 20px;
+}
+.jss1085 {
+  background-color: var(--hover);
+}
+.jss1086 {
+  flex: 1;
+  font-size: 13px;
+}
+.jss1087 {
+  flex: 0.6;
+  margin-bottom: 4px;
+}
+.jss1088 {
+  flex: 0.4;
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  margin-right: 4px;
+  flex-direction: row;
+}
+.jss1089 {
+  margin-right: 12px;
+}
+.jss1090 {
+  border-color: #EB1D54;
+  border-width: 1px;
+  border-bottom-color: #EB1D54;
+  border-bottom-width: 1px;
+}
+.jss1091 {
+  left: 8px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  margin-right: 12px;
+  text-align-vertical: center;
+}
+.jss1092:focus {
+  outline: none;
+}
+.jss1093 {
+  color: var(--textSecondary);
+  font-weight: 300;
+}
+.jss1094 {
+  background-color: var(--bgSecondary);
+}
+.jss1095 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jss1095:hover {
+  background-color: var(--hover);
+}
+</style><style data-jss="" data-meta="P">
+
+</style><style data-jss="" data-meta="makeStyles">
+.jss50 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 9999;
+  position: fixed;
+}
+.jss51 {
+  width: 80%;
+  margin: auto;
+  opacity: 0;
+  padding: 24px 20px;
+  overflow: auto;
+  max-width: 500px;
+  box-shadow: 0px 14px 20px #162B7433;
+  max-height: 80%;
+  border-radius: 10px;
+}
+.jss52 {
+  opacity: 0;
+  overflow: auto;
+  box-shadow: 0px 14px 20px #162B7433;
+}
+.jss53 {
+  right: 0;
+  width: 28%;
+  position: fixed;
+  min-width: 400px;
+  max-height: 100%;
+  border-radius: 0;
+}
+.jss54 {
+  width: 100% !important;
+  padding: 10px 20px;
+  max-width: unset !important;
+  min-width: unset;
+  align-self: flex-end;
+  max-height: 80%;
+  min-height: 30%;
+  border-radius: 0;
+}
+.jss55 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: var(--backdropBg);
+}
+@media only screen and (max-width: 786px) {
+  .jss53 {
+    width: 100%;
+  }
+  .jss52 {
+    width: 100% !important;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    overflow: auto;
+    min-width: unset;
+  }
+  .jss54 {
+    bottom: 0;
+    position: absolute;
+    border-radius: 16px 16px 0 0;
+  }
+}
+</style><style data-jss="" data-meta="J">
+
+</style><style data-jss="" data-meta="makeStyles">
+.jss49 {
+  padding: 0px 0px;
+  max-width: 420px;
+  border-radius: 12px;
+}
+@media only screen and (max-width: 786px) {
+  .jss49 {
+    bottom: 0;
+    position: absolute;
+    border-radius: 16px 16px 0 0;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1069 {
+  display: flex;
+  padding: 6px 10px;
+  align-items: center;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: #b3bac5;
+}
+</style><style data-jss="" data-meta="b">
+.jss320 {
+  position: relative;
+}
+.jss321 {
+  display: flex;
+  align-items: center;
+}
+.jss322 {
+  z-index: 9999;
+  overflow: auto;
+  position: fixed;
+  box-shadow: 0px 3px 20px var(--dropdownShadow);
+  transition: opacity 250ms cubic-bezier(0.34, 0.35, 0.03, 1.04);
+  border-radius: 5px;
+  background-color: var(--dropdownBg);
+}
+.jss322::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.jss323 {
+  padding: 10px 0;
+}
+.jss324 {
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss324:hover {
+  color: var(--linkColor) !important;
+  background-color: var(--hover);
+}
+.jss325 {
+  color: var(--linkColor) !important;
+}
+.jss325:hover {
+  background-color: transparent;
+}
+.jss326 {
+  padding: 16px 10px 10px;
+  text-align: center;
+  border-bottom-color: var(--borderColor);
+  border-bottom-width: 1px;
+}
+.jss327 {
+  width: 100%;
+  text-align: left;
+  border-radius: 6px;
+}
+.jss328 {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  flex-direction: row;
+}
+.jss328:hover {
+  background-color: var(--hover);
+}
+.jss329 {
+  padding-left: 12px;
+}
+.jss330 {
+  border-radius: 40px;
+  background-color: transparent;
+}
+.jss331 {
+  border-radius: 6px;
+  background-color: var(--bgSecondary);
+}
+.jss333 {
+  opacity: 1;
+}
+.jss333:nth-child(n+2) {
+  opacity: 0.2;
+}
+.jss334 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  cursor: default;
+  height: 100%;
+  z-index: 9999;
+  position: fixed;
+  background-color: transparent;
+}
+.jss335 {
+  background-color: var(--hover);
+}
+@media only screen and (max-width: 786px) {
+  .jss328 {
+    width: 100%;
+    display: inline-block;
+  }
+  .jss328 > svg {
+    top: 1px;
+    position: relative;
+    vertical-align: text-top;
+  }
+  .jss329 {
+    width: 65%;
+    display: inline-block;
+    text-align: left !important;
+    vertical-align: top;
+  }
+  .jss322 {
+    left: 0;
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1114 {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+}
+.jss1115 {
+  display: flex;
+  align-items: baseline;
+}
+.jss1116 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.jss1117 {
+  margin-left: 4px;
+}
+.jss1118 {
+  white-space: nowrap;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1103 {
+  flex: 1;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+}
+.jss1104 {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-left: 10px;
+  justify-content: center;
+}
+.jss1105 {
+  right: 10px;
+  padding-left: 0;
+}
+.jss1106 {
+  width: 100%;
+  border: 1px solid var(--inputBorder);
+  padding: 8.5px 10px;
+  font-size: 12px;
+  background: var(--tabsBg);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.jss1106:focus {
+  outline: none;
+}
+.jss1106::placeholder {
+  color: var(--placeholderDarkColor);
+  font-size: 12px;
+  font-weight: 300;
+}
+.jss1107 {
+  cursor: no-drop;
+  border-color: var(--inputBorder) !important;
+}
+.jss1108 {
+  margin-top: 0.5rem;
+}
+.jss1109 {
+  margin-bottom: 0.3rem;
+}
+.jss1110 {
+  color: var(--textSecondary);
+  margin-bottom: 8px;
+}
+.jss1111 {
+  padding: 0.5rem 0.1rem;
+}
+.jss1112 {
+  right: 10px;
+  display: flex;
+  position: absolute;
+}
+.jss1113 {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+  .jss1106 {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .jss1106 {
+    font-size: 12px;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1070 {
+  box-shadow: 0px 3px 20px var(--boxShadow);
+  border-radius: 8px;
+  background-color: var(--bgPrimary);
+}
+.jss1071 {
+  width: 100%;
+  display: flex;
+  padding: 20px 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss1072 {
+  display: flex;
+  align-items: center;
+}
+.jss1073 {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 6px;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: var(--blueLightBg);
+}
+.jss1074 {
+  transform: rotate3d(1, 0, 0, 0);
+  transition: all 0.32s var(--anim-func-ease);
+}
+.jss1075 {
+  transform: rotate3d(1, 0, 0, -165deg);
+}
+.jss1076 {
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1097 {
+  width: 100%;
+  border: 1px solid #e2e8f1;
+  max-width: 300px;
+  border-radius: 8px;
+}
+.jss1098 {
+  border-color: var(--linkColor);
+}
+.jss1099 {
+  flex: 1;
+  color: var(--text);
+  width: 100%;
+  height: 36px;
+  margin: 0;
+  font-size: 13px;
+  caret-color: var(--linkColor);
+  border-width: 0 !important;
+  padding-block: 6.5px;
+}
+.jss1100 {
+  border-radius: 6px;
+  background-color: var(--inputLightBg);
+}
+.jss1101 {
+  font-size: 13px;
+  margin-left: 14px;
+}
+</style><style data-jss="" data-meta="Be">
+.jss982 {
+  width: 100%;
+  border: none;
+  height: 100%;
+  padding: 10px 0;
+}
+.jss983 {
+  margin-bottom: 20px;
+}
+.jss984 {
+  margin-right: 14px;
+}
+.jss985 {
+  padding: 0;
+}
+.jss986 {
+  padding: 10px 12px;
+  box-shadow: 0px 2px 20px #00155F05;
+  border-radius: 10px;
+}
+.jss987 {
+  position: relative;
+  margin-bottom: 24px;
+}
+.jss988 {
+  top: 115px;
+  margin: 16px 0;
+  display: flex;
+  padding: 0 10px;
+  z-index: 9999;
+  position: sticky;
+  align-items: baseline;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  background-color: #FFF;
+}
+.jss989 {
+  padding: 0;
+}
+.jss990 {
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.jss991 {
+  display: flex;
+  justify-content: space-between;
+}
+.jss992 {
+  flex: 0.48;
+}
+.jss993 {
+  flex: 0.48;
+}
+.jss994 {
+  margin: 0;
+}
+.jss995 {
+  margin: auto;
+  padding: 36px 26px;
+}
+.jss996 {
+  height: 600px;
+  padding: 0;
+  max-width: 1000px;
+}
+.jss997 {
+  display: flex;
+  padding: 6px 16px 6px 26px;
+  column-gap: 7px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.jss997 > svg {
+  margin-right: 0 !important;
+}
+.jss997:disabled {
+  opacity: 0.9;
+  background-color: blue;
+}
+.jss998 {
+  padding: 6px 10px;
+}
+.jss999 {
+  color: #346FF3 !important;
+}
+.jss1000 {
+  font-size: 14px;
+}
+.jss1001 {
+  width: unset;
+  padding: 0;
+}
+.jss1003 {
+  font-weight: 500;
+}
+.jss1004 {
+  border: 1px solid var(--borderColor);
+  position: relative;
+  box-shadow: 0px 2px 20px #00155F05;
+  margin-top: 20px;
+  transition: all 250ms;
+  border-radius: 10px;
+}
+.jss1005 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+}
+.jss1006 {
+  display: flex;
+  align-items: baseline;
+}
+.jss1007 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--borderColor);
+}
+.jss1008:hover {
+  background-color: var(--hover);
+}
+.jss1009 {
+  top: 0px;
+  right: 10px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-end;
+}
+.jss1010 {
+  top: -30px;
+}
+.jss1011 {
+  height: 33px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 6px;
+  justify-content: center;
+  background-color: #346FF3;
+}
+.jss1012 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss1013 {
+  width: 40px;
+  height: 28px;
+  display: flex;
+  z-index: 99;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  background-color: var(--blueLightBg);
+}
+.jss1014 {
+  background-color: var(--bgPrimary);
+}
+.jss1015 {
+  margin-left: 10px;
+}
+.jss1016 {
+  margin-top: 32px;
+}
+.jss1017 {
+  margin: 10px;
+}
+.jss1018 {
+  padding: 4px 10px;
+}
+.jss1019 {
+  padding: 6px 10px;
+  margin-left: 10px;
+}
+.jss1020 {
+  color: var(--linkColor) !important;
+}
+.jss1021 {
+  display: flex;
+}
+.jss1022 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+.jss1023 {
+  height: 45px;
+}
+.jss1023:hover {
+  border-radius: 12px;
+  background-color: var(--hover);
+}
+.jss1024 {
+  min-width: fit-content;
+}
+.jss1025 {
+  display: flex;
+  align-items: center;
+}
+.jss1025:last-child {
+  padding-right: 0;
+}
+.jss1026 {
+  padding: 4px 20px;
+}
+.jss1027 {
+  padding: 4px 20px;
+  margin-left: 10px;
+}
+.jss1028 {
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: var(--bgPrimary);
+}
+.jss1029 {
+  display: flex;
+  position: absolute;
+  box-shadow: 0px 4px 6px var(--navBtnShadow);
+  align-items: center;
+  justify-content: center;
+  background-color: var(--navBtnBg);
+}
+.jss1029:hover {
+  background-color: var(--hover);
+}
+.jss1030 {
+  margin-left: 10px;
+}
+.jss1031 {
+  font-size: 13px !important;
+}
+.jss1032 {
+  border: 1px solid var(--borderColor);
+  display: flex;
+  box-shadow: 0px 2px 20px #00155F05;
+  margin-top: 20px;
+  min-height: 200px;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bgPrimary);
+}
+.jss1033 {
+  display: flex;
+  margin-top: 20px;
+  min-height: 200px;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bgPrimary);
+}
+.jss1034 {
+  box-shadow: none;
+}
+.jss1035 {
+  text-align: center;
+}
+.jss1036 {
+  height: 100px;
+}
+.jss1038 {
+  border: 1px solid var(--borderColor);
+  padding: 0 4px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+.jss1039 {
+  width: 100%;
+  padding: 0 14px 12px;
+  border-radius: 10px;
+  background-color: var(--bgPrimary);
+}
+.jss1040 {
+  width: 100%;
+  height: 200px;
+  display: grid;
+}
+.jss1042 {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #eaeef4;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss1043 {
+  color: #346FF3;
+  padding: 6px 20px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 15px !important;
+  background-color: #f1f7ff;
+}
+.jss1044 {
+  margin-left: 6px;
+}
+.jss1045 {
+  display: flex;
+  padding: 40px;
+  background: var(--bgPrimary);
+  margin-top: 30px;
+  min-height: 200px;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.jss1046 {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss1047 {
+  display: flex;
+  align-items: center;
+}
+.jss1049 {
+  height: fit-content !important;
+}
+.jss1050 {
+  box-shadow: 0px 10px 12px 0px #162b741f;
+  border-radius: 0 0 5px 5px;
+  background-color: #F9FAFC;
+}
+@media only screen and (max-width: 786px) {
+  .jss1006 {
+    margin: 20px 0 4px 0px;
+  }
+  .jss1051 {
+    bottom: 0;
+    position: absolute;
+    border-radius: 16px 16px 0 0;
+  }
+  .jss996 {
+    height: 530px !important;
+    margin: 0;
+    border-radius: 16px 16px 0 0;
+  }
+  .jss985 {
+    padding: 0;
+  }
+  .jss1025 {
+    opacity: 1;
+  }
+  .jss991 {
+    flex-direction: column;
+  }
+  .jss1052 {
+    box-shadow: 0px 3px 20px var(--boxShadow);
+    border-radius: 10px;
+    background-color: var(--bgPrimary);
+  }
+  .jss992 {
+    margin: 0 14px;
+    padding: 20px 0;
+    box-shadow: none !important;
+    border-bottom: 1px solid var(--borderColor);
+    border-radius: 0;
+  }
+  .jss993 {
+    margin: 0 14px;
+    padding: 20px 0;
+    box-shadow: none !important;
+    border-radius: 0;
+  }
+  .jss1053 {
+    top: unset;
+    left: calc(100% - 32px);
+    width: 28px;
+    position: relative;
+  }
+  .jss1001 {
+    width: 100%;
+  }
+  .jss1016 {
+    margin-top: 0;
+  }
+  .jss1011 {
+    width: 38px;
+    padding: 0;
+  }
+  .jss1009 {
+    position: unset;
+    margin-top: 10px;
+  }
+  .jss1054 {
+    top: 0;
+    position: unset;
+    padding-left: 10px;
+    border-radius: 12px;
+  }
+  .jss1055 {
+    margin-top: 0;
+  }
+  .jss1005 {
+    flex-direction: column;
+  }
+  .jss988 {
+    padding: 0;
+    flex-direction: column;
+  }
+  .jss1012 {
+    width: 100%;
+  }
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss946 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bgPrimary);
+}
+.jss947 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.jss949 {
+  margin-top: 10px;
+}
+.jss950 {
+  margin-top: 20px;
+}
+.jss953 {
+  margin-right: 10px;
+}
+.jss954 {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss954 button {
+  flex: 1;
+  border: 1px solid transparent;
+  padding: 8px 20px;
+  margin-left: 20px;
+}
+.jss954 button:first-child {
+  margin: 0;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss939 {
+  font-size: 20px !important;
+  margin-bottom: 20px;
+}
+.jss940 {
+  display: flex;
+  border-top: 1.5px solid var(--borderColor);
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 4px;
+}
+.jss941 {
+  display: flex;
+  border-top: 1.5px solid var(--borderColor);
+  align-items: center;
+  padding-top: 20px;
+  margin-block: 10px;
+}
+.jss942 {
+  flex: 1;
+}
+.jss943 {
+  font-size: 12px !important;
+}
+.jss944 {
+  flex: 1;
+}
+.jss945 {
+  color: #346FF3 !important;
+  min-height: 38px;
+  font-weight: 500 !important;
+  white-space: nowrap;
+  border-color: var(--borderColor) !important;
+  border-radius: 6px;
+  background-color: #F7FAFF;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss1056 {
+  display: inline-block;
+}
+.jss1057 {
+  font-size: 16px !important;
+  transition: all ease-in 200ms;
+}
+.jss1058 {
+  display: inline-flex;
+  align-items: center;
+}
+.jss1059 {
+  left: 0;
+  display: none;
+  position: absolute;
+  align-self: center;
+}
+.jss1060 .jss1058 {
+  position: relative;
+}
+.jss1060 .jss1058:hover {
+  cursor: pointer;
+}
+.jss1060 .jss1058:hover .jss1057 {
+  color: var(--linkColor) !important;
+  transform: translateX(18px);
+}
+.jss1060 .jss1058:hover .jss1059 {
+  display: unset;
+}
+.jss1061 {
+  width: 95%;
+  margin: auto;
+}
+.jss1062 {
+  margin-bottom: 16px;
+}
+.jss1063 {
+  border-radius: 6px;
+  background-color: var(--tabsBg);
+}
+.jss1064 {
+  border: 0;
+  font-weight: 500;
+}
+.jss1065 {
+  top: 35px;
+  position: absolute;
+}
+.jss1066 {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.jss1067 {
+  flex: 0.5;
+  border: 1px solid var(--tabsBg);
+  padding: 10px;
+  margin-right: 14px;
+}
+.jss1068 {
+  flex: 0.5;
+  padding: 10px;
+  margin-left: 14px;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss960 {
+  border-top: 1.4px solid var(--borderColor);
+  background-color: var(--bgPrimary);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.jss961 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.jss962 {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.jss963 {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+.jss964 {
+  margin-left: 8px;
+}
+.jss965 {
+  margin-left: 8px;
+}
+</style><style data-jss="" data-meta="y">
+.jss955 {
+  top: 67px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 1000;
+  position: fixed;
+  border-bottom: 1px solid var(--borderColor);
+  background-color: var(--bgPrimary);
+}
+.jss956 {
+  gap: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.jss957 {
+  gap: 10px;
+  display: flex;
+  padding: 0 20px;
+  min-width: 20%;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.jss957:hover {
+  background-color: #F6F8FB;
+}
+.jss958 {
+  margin: 10px 0;
+}
+.jss959 {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+</style><style data-jss="" data-meta="st">
+.jss863 {
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+  background: var(--bgPrimary);
+  align-items: center;
+  margin-block: 10px;
+  border-radius: 10px;
+}
+.jss864 {
+  border: 1px solid #346FF3;
+  margin-left: 10px;
+}
+.jss865 {
+  border: 1px solid #346FF3;
+  border-radius: 8px;
+  padding-block: 3px;
+  padding-inline: 8px;
+}
+.jss866 {
+  top: 67px;
+  width: 100%;
+  display: flex;
+  z-index: 999;
+  position: sticky;
+  align-items: center;
+  padding-block: 20px;
+  background-color: #FFF;
+}
+.jss866:hover .jss868 {
+  opacity: 1;
+}
+.jss867 {
+  border: 1px solid var(--borderColor);
+  padding-bottom: 20px;
+}
+.jss868 {
+  opacity: 0.3;
+  margin-top: 4px;
+  margin-left: 10px;
+}
+.jss869 {
+  margin-block: 20px;
+  margin-inline: 10px;
+}
+.jss870 .jss871:hover + .jss872 {
+  opacity: 0;
+}
+.jss872 {
+  display: inline-flex;
+  transition: all ease-in 200ms;
+  align-items: center;
+  margin-left: 10px;
+}
+.jss873 {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.jss874 {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+.jss875 {
+  top: -5px;
+  right: 10px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #346FF3;
+}
+.jss876 {
+  width: 210px;
+  margin-left: 20px;
+}
+.jss877 {
+  color: #346FF3 !important;
+  font-weight: 500 !important;
+  white-space: nowrap;
+}
+.jss878 {
+  padding: 10px;
+  border-width: 0;
+  background-color: #F7FAFF;
+}
+.jss879 {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-right: 10px;
+}
+.jss880 {
+  padding: 6px 16px;
+  margin-right: 12px;
+}
+.jss881 {
+  border-color: var(--disabled);
+  background-color: var(--disabled);
+}
+.jss882 {
+  min-width: 200px;
+  margin-right: 20px;
+}
+.jss883 {
+  text-align: center;
+  justify-content: center;
+}
+.jss884 {
+  width: 100%;
+  margin:  auto;
+  max-width: 200px;
+}
+.jss885 {
+  width: 90%;
+  margin: 10px auto 4px;
+}
+.jss886 {
+  width: 90%;
+  margin: 20px auto 0;
+}
+.jss887 {
+  max-height: 180px;
+}
+.jss888 {
+  max-width: 300px;
+}
+.jss889 {
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.jss890 {
+  margin: 32px auto 10px;
+}
+.jss891 {
+  margin: 0;
+  border-radius: 16px 16px 0 0;
+}
+.jss892 {
+  display: flex;
+  padding: 20px 20px 24px;
+  background: var(--bgPrimary);
+  box-shadow: 0px 3px 20px var(--boxShadow);
+  margin-top: 12px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.jss893 {
+  margin-top: 32px;
+}
+.jss894 {
+  max-width: 200px;
+}
+.jss895 {
+  padding: 0 ;
+  background-color: var(--createTabsBg);
+}
+.jss896 {
+  background-color: #6B0FE9;
+}
+.jss897 {
+  max-width: 150px;
+}
+.jss898 {
+  padding: 8px 12px;
+}
+.jss899 {
+  padding: 24px 0;
+  text-align: right;
+}
+.jss900 {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jss901 {
+  margin-bottom: 12px;
+}
+.jss902 {
+  z-index: 9999;
+  transition: all 0.35s var(--anim-func-ease);
+  margin-right: 40px;
+  border-bottom: 1px solid var(--borderColor);
+  padding-block: 15px;
+  padding-inline: 10px;
+}
+.jss903 {
+  overflow: visible !important;
+}
+.jss904 {
+  box-shadow: none;
+}
+.jss905 {
+  padding: 0;
+  box-shadow: none;
+  margin-top: 12px;
+  background-color: transparent;
+}
+.jss906 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.jss907 {
+  width: 100%;
+  display: flex;
+  padding: 8px 12px;
+  max-width: 300px;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: space-between;
+  background-color: var(--bgPrimary);
+}
+.jss909 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.jss910 {
+  margin: 20px 10px;
+}
+.jss911 {
+  display: flex;
+  margin-top: 40px;
+}
+.jss912 {
+  width: 100%;
+}
+.jss914 {
+  margin-top: 8px;
+  margin-right: 8px;
+}
+.jss915 {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.jss918 {
+  display: flex;
+  padding: 6px 10px;
+  overflow: hidden;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #000000c4;
+}
+.jss919 {
+  display: inline-flex;
+}
+.jss920 {
+  display: flex;
+  padding: 8px 20px;
+  position: relative;
+  align-items: center;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: var(--orangeLightBg);
+}
+.jss921 {
+  flex: 1;
+  margin-top: 28px;
+}
+.jss922 {
+  margin-bottom: 12px;
+}
+.jss923 {
+  background-color: var(--inputLightBg);
+}
+.jss924 {
+  padding: 8px 0;
+}
+.jss925 {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid #ECECEC;
+  justify-content: space-between;
+}
+.jss926 {
+  display: none;
+}
+.jss927 {
+  display: block;
+}
+.jss928 {
+  margin-left: 10px;
+}
+.jss928:hover .jss930 {
+  fill: #346FF3;
+}
+.jss928:hover .jss931 {
+  fill: #F6708A;
+}
+.jss929 {
+  margin-left: 10px;
+}
+.jss929:hover .jss931 {
+  fill: #F6708A;
+}
+.jss930 {
+  fill: #9BABC6;
+}
+.jss931 {
+  fill: var(--linkColor);
+}
+.jss932 {
+  margin-left: 10px;
+}
+@media only screen and (max-width: 786px) {
+  .jss871 > p {
+    max-width: 220px;
+  }
+  .jss902 {
+    top: 67px;
+    padding: 10px 20px;
+    position: fixed;
+    margin-top: 0;
+    border-bottom: 0;
+    border-radius: 0 0 8px 8px;
+    padding-bottom: 20px;
+    background-color: #faf9fc;
+  }
+  .jss904 {
+    margin: 0 -20px;
+  }
+  .jss933 {
+    margin-top: 70px;
+  }
+  .jss866 {
+    padding-block: 0;
+    background-color: transparent;
+  }
+  .jss863 {
+    border: 1px solid var(--borderColor);
+    margin: 0;
+    padding-block: 10px;
+  }
+  .jss906 {
+    gap: 40px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .jss876 {
+    margin: 0 !important;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .jss934 {
+    bottom: 0;
+    position: absolute;
+    border-radius: 16px 16px 0 0;
+  }
+  .jss876 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .jss906 {
+    justify-content: space-between;
+  }
+  .jss913 {
+    padding-top: 44px;
+    padding-bottom: 60px;
+  }
+  .jss899 {
+    left: 0;
+    width: 100%;
+    bottom: 55px;
+    padding: 10px 20px;
+    z-index: 99;
+    position: fixed;
+    background: var(--bgTertiary);
+  }
+  .jss899 > button {
+    width: 100%;
+  }
+  .jss882 {
+    min-width: unset;
+    margin-right: 0;
+  }
+  .jss935 {
+    padding: 10px 20px;
+  }
+  .jss892 {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .jss892 .jss874 {
+    flex: auto;
+    margin: 0 0 20px;
+  }
+  .jss892 .jss874:last-child {
+    margin: 0;
+  }
+  .jss901 {
+    margin-bottom: 8px;
+  }
+  .jss936 {
+    padding: 8px 16px;
+  }
+  .jss937 {
+    width: 100%;
+  }
+  .jss895 {
+    flex-wrap: wrap;
+  }
+  .jss874 {
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    justify-content: space-between;
+  }
+  .jss894 {
+    max-width: unset;
+  }
+}
+.jss938 {
+  width: 300px;
+  padding: 20px;
+}
+</style><style data-jss="" data-meta="mt">
+.jss22 {
+  height: 100vh;
+  overflow: auto;
+  position: relative;
+  overflow-x: hidden;
+  background-color: var(--screenBg);
+}
+.jss24 {
+  width: 325px;
+}
+.jss25 {
+  width: 80%;
+  display: inline-block;
+  transition: all 0.35s var(--anim-func-ease);
+}
+.jss26 {
+  min-height: calc(100% - 54px);
+}
+.jss27 {
+  background-image: url(/_next/static/media/login_bg.43ee1a6f.png);
+  background-position: center;
+}
+.jss28 {
+  width: calc(100% - 334px);
+  margin-right: 40px;
+}
+.jss29 {
+  width: calc(100% - 130px);
+  margin-right: 40px;
+}
+.jss30 {
+  width: 100%;
+}
+.jss31 {
+  top: 100px;
+  width: 294px;
+  display: inline-block;
+  opacity: 1;
+  position: sticky;
+  transform: translate(0px, 0px);
+  margin-top: 30px;
+  transition: all 350ms var(--anim-func-ease);
+  margin-bottom: 38px;
+  vertical-align: top;
+}
+.jss32 {
+  top: 54px;
+  width: 90px;
+  display: inline-block;
+  opacity: 1;
+  z-index: 9998;
+  position: sticky;
+  transform: translate(0px, 0px);
+  margin-top: 30px;
+  transition: all 350ms var(--anim-func-ease);
+  margin-bottom: 38px;
+  vertical-align: top;
+}
+.jss33 {
+  opacity: 0;
+  position: absolute;
+  visibility: hidden;
+}
+.jss34 {
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 99999;
+  position: fixed;
+  background: #f9f9f99e;
+  align-items: center;
+  justify-content: center;
+}
+.jss35 {
+  top: 155px;
+  right: 2vw;
+  opacity: 1;
+  z-index: 9999;
+  position: fixed;
+  transform: translate(0px);
+  transition: transform 450ms var(--anim-func-ease);
+}
+.jss36 {
+  display: flex;
+  padding: 12px 12px;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+  background-color: #346FF3;
+}
+.jss37 {
+  opacity: 0;
+  transform: translate(100px, 0);
+}
+.jss38 {
+  right: 20px;
+  bottom: 38px;
+  padding: 8px 12px;
+  z-index: 999;
+  position: absolute;
+  border-radius: 50%;
+}
+.jss39 {
+  padding: 20px;
+  max-width: 740px;
+}
+.jss40 {
+  padding: 20px;
+}
+.jss41 {
+  width: 750px;
+  max-width: 750px !important;
+}
+.jss42 {
+  padding: 20px;
+  text-align: center;
+}
+.jss43 {
+  padding: 20px 0;
+  max-width: 421px;
+  overflow-x: hidden;
+}
+.jss44 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: var(--backdropBg);
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+  .jss28 {
+    width: calc(75% - 24px);
+    margin-right: 24px;
+  }
+  .jss31 {
+    width: 25%;
+  }
+  .jss35 {
+    top: 85px;
+  }
+}
+@media only screen and (min-width: 786px) and (max-width: 1024px) {
+  .jss28 {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .jss28 {
+    width: 100%;
+    margin-right: 0;
+  }
+  .jss43 {
+    width: 100vw;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .jss39 {
+    height: 100%;
+    margin: 0px auto;
+    max-height: unset;
+  }
+}
+</style><style data-jss="" data-meta="m">
+.jss336 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.jss337 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.jss338 {
+  width: 100%;
+  height: 100%;
+  max-width: 55px;
+  border-radius: 50%;
+}
+.jss339 {
+  flex: 1;
+  margin-left: 20px;
+}
+.jss342 {
+  cursor: pointer;
+  display: inline;
+}
+.jss343 {
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  opacity: 0;
+  position: absolute;
+}
+.jss344 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  max-width: 55px;
+  min-height: 55px;
+  border-radius: 50%;
+}
+</style><style data-jss="" data-meta="w">
+.jss56 {
+  top: 0;
+  padding: 5px 0;
+  z-index: 9999;
+  position: sticky;
+  border-bottom: 1px solid var(--borderColor);
+  background-color: var(--bgPrimary);
+}
+.jss57 {
+  height: 56px;
+}
+.jss58 {
+  height: 66px;
+}
+.jss59 {
+  height: 62px;
+}
+.jss60 {
+  height: 60px;
+}
+.jss61 {
+  height: 100%;
+  display: flex;
+}
+.jss62 {
+  background-color: #FFFFFF;
+}
+.jss63 {
+  margin-left: 6px;
+}
+.jss64 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.jss65 {
+  cursor: pointer;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.jss66 {
+  height: 24px;
+}
+.jss67 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.jss69 {
+  width: 30px;
+  height: 30px;
+}
+.jss70 {
+  display: flex;
+  align-items: center;
+}
+.jss71 {
+  display: flex;
+  align-items: center;
+}
+.jss72 {
+  display: flex;
+  padding: 8px 28px;
+  background: #346FF3;
+  align-items: center;
+  margin-left: 10px;
+  flex-direction: row-reverse;
+}
+.jss73 {
+  display: flex;
+  padding: 8px 28px;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.jss73:hover {
+  background-color: #0000001F;
+}
+.jss74:hover > span {
+  color: #202DDA;
+}
+.jss74 span {
+  font-size: 14px;
+  font-weight: 500;
+}
+.jss75 {
+  color: #000651;
+  font-size: 12px;
+}
+.jss76 {
+  display: flex;
+  padding: 8px 18px;
+  align-items: center;
+}
+.jss76:hover {
+  border-color: var(--hover);
+  background-color: var(--hover);
+}
+.jss77 {
+  display: flex;
+  align-items: unset;
+  padding-block: 4px;
+  padding-inline: 8px;
+}
+.jss77:hover {
+  border-color: var(--hover);
+  background-color: var(--hover);
+}
+.jss77 > p {
+  margin-right: 6px;
+}
+.jss78 {
+  display: flex;
+  padding: 8px 28px;
+  align-items: center;
+}
+.jss78:hover {
+  background-color: #0000001F;
+}
+.jss79 {
+  display: flex;
+  align-items: center;
+}
+.jss80 {
+  width: 10px;
+  margin-right: 8px;
+}
+.jss82 {
+  padding: 10px 20px;
+  background-color: #445DFF;
+}
+.jss82:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.jss82 p {
+  font-size: 14px !important;
+}
+.jss83 {
+  filter: drop-shadow(2px 2px 5px #445DFF);
+  padding: 10px 20px;
+  background-color: #445DFF;
+}
+.jss83:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.jss83 p {
+  font-size: 14px !important;
+}
+.jss84 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 340px;
+  margin-top: 6px;
+  align-items: center;
+}
+.jss85 {
+  width: 100%;
+  display: inline-flex;
+  padding: 10px 0;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+}
+.jss85:hover  {
+  background-color: var(--hover);
+}
+.jss85:hover  svg {
+  fill: var(--primaryLink);
+}
+.jss86 {
+  width: 100%;
+  cursor: default;
+  display: inline-flex;
+  padding: 10px 0;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+}
+.jss87 activeBar {
+  transition: all 0.8s;
+  background-color: var(--primaryLink);
+}
+.jss87 svg {
+  fill: var(--primaryLink);
+}
+.jss87:hover  {
+  background-color: unset;
+}
+.jss87:hover  > svg {
+  fill: var(--primaryLink);
+}
+.jss88 {
+  cursor: default;
+}
+.jss89 {
+  flex: unset;
+  width: 30px;
+  height: 30px;
+}
+.jss90 {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-right: 12px;
+  border-radius: 50%;
+  justify-content: center;
+}
+.jss90:hover {
+  background-color: var(--hover);
+}
+.jss91 {
+  cursor: pointer;
+  position: relative;
+}
+.jss91:hover .jss114 {
+  opacity: 1;
+  visibility: visible;
+}
+.jss92 {
+  display: flex;
+  align-items: center;
+}
+.jss93 {
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss94 {
+  width: 100%;
+}
+.jss95 {
+  margin-left: 6px;
+}
+.jss96 {
+  margin: 0;
+  border-radius: 16px 16px 0 0;
+}
+.jss97 {
+  display: flex;
+  align-items: center;
+  margin-block: 10px;
+  justify-content: space-between;
+}
+.jss98 {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+}
+.jss99:hover {
+  background-color: transparent !important;
+}
+.jss100 {
+  margin: 0 10px 0 0;
+  display: flex;
+  padding: 4px 8px;
+  align-items: center;
+  border-radius: 6px;
+}
+.jss100:hover {
+  background-color: var(--hover);
+}
+.jss101 {
+  width: 16px;
+  margin-right: 8px;
+}
+.jss102 {
+  width: 16px;
+  margin-right: 8px;
+}
+.jss103 {
+  margin-right: 8px;
+}
+.jss104 {
+  display: flex;
+  padding: 10px 20px;
+  min-width: 180px;
+  align-items: center;
+}
+.jss104:hover {
+  background-color: var(--hover);
+}
+.jss105 {
+  height: 100%;
+}
+.jss106 {
+  display: flex;
+  align-items: center;
+}
+.jss107 {
+  width: 100%;
+  display: block;
+  padding: 8px 20px;
+  font-size: 13px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  text-align: left;
+  font-weight: 500;
+}
+.jss107:hover {
+  background-color: var(--hover);
+}
+.jss109 {
+  width: 100%;
+  display: block;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.jss109:hover {
+  background-color: var(--hover);
+}
+.jss110 {
+  width: 100%;
+  display: flex;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+}
+.jss110:hover {
+  background-color: var(--hover);
+}
+.jss110:hover > svg {
+  fill: var(--linkWhite);
+}
+.jss111 {
+  min-width: 75px;
+}
+.jss112 {
+  height: fit-content !important;
+}
+.jss113 {
+  height: 20px;
+  max-width: 72px;
+  margin-right: 10px;
+}
+.jss114 {
+  top: 34px;
+  right: -106px;
+  opacity: 0;
+  padding: 10px 0;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 3px 20px var(--boxShadow);
+  visibility: hidden;
+  border-radius: 5px;
+  background-color: var(--dropdownBg);
+}
+.jss115 {
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+.jss115 > button {
+  margin-bottom: 16px;
+}
+.jss116 {
+  height: 75%;
+  position: relative;
+  text-align: center;
+}
+.jss116 > button {
+  margin-bottom: 16px;
+}
+.jss117 {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+  justify-content: center;
+}
+.jss118 {
+  height: 50%;
+  margin: 12px 0 0px 30px;
+}
+.jss119 {
+  width: 70px;
+  height: 24px;
+  margin: 12px 0 0px 30px;
+}
+.jss120 {
+  border: 1px solid var(--linkColor);
+  margin-left: 15px;
+}
+.jss120 > p {
+  color: #346FF3 !important;
+}
+@media only screen and (max-width: 786px) {
+  .jss120 {
+    border: 1px solid var(--linkColor);
+    padding: 10px;
+    margin-right: 45px;
+  }
+  .jss120 > p {
+    color: #346FF3 !important;
+  }
+  .jss76 {
+    padding: 3px 6px;
+  }
+  .jss77 {
+    align-items: unset;
+  }
+  .jss84 {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  .jss122 {
+    padding: 10px 0;
+  }
+  .jss123 {
+    padding: 2px 4px;
+    border-width: 0 0 1px 0;
+    margin-right: 20px;
+    border-radius: 0;
+  }
+  .jss79 {
+    margin: auto;
+  }
+  .jss124 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .jss125 {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
+  }
+  .jss126 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .jss127 {
+    padding: 8px 10px 4px 10px;
+    border-radius: 8px;
+    background-color: #e6e7ff;
+  }
+  .jss128 {
+    top: 20px;
+    right: 10px;
+    padding: 6px 10px;
+    position: relative;
+    background: #F6F8FB;
+    border-radius: 50%;
+  }
+  .jss129 {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .jss130 {
+    height: calc(100% - 150px);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .jss130 button {
+    width: calc(100% - 40px);
+    margin: 0 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+  }
+  .jss131 {
+    background: #346FF3;
+    text-align: center !important;
+    border-radius: 8px;
+    margin-bottom: 16px !important;
+  }
+  .jss132 {
+    background: #346FF3;
+    box-shadow: 0px 10px 24px #0022FF3B;
+    text-align: center !important;
+    margin-bottom: 20px !important;
+  }
+  .jss72 {
+    margin-right: 0;
+  }
+  .jss89 {
+    width: 26px;
+    height: 26px;
+  }
+}
+</style><link rel="stylesheet" type="text/css" href="/_next/static/css/999735718d407326.css"><link as="script" rel="prefetch" href="/_next/static/chunks/7083-9c63fdc4eec7f340.js"><link as="script" rel="prefetch" href="/_next/static/chunks/9019-794e28dadb2a3625.js"><link as="script" rel="prefetch" href="/_next/static/chunks/pages/explore/scanner/%5Bname%5D-51d0c9ad78d23871.js"><link as="script" rel="prefetch" href="/_next/static/chunks/pages/explore/strategy/%5Bid%5D-04a5f76be7363356.js"><link as="script" rel="prefetch" href="/_next/static/chunks/pages/notifications-e574d150403730ba.js"></head><body class="" style="--red: #EB1D54; --green: #3CBB00; --orange: #ff5722; --purple: #A350FF; --voilet: #6B0FE9; --peach: #FCDECA; --yellow: #FFC107; --yellow_sl: #F8B600; --bgPrimary: #FFF; --bgSecondary: #FFF; --bgTertiary: #FFF; --screenBg: #FFF; --bgSidebar: #FFF; --bgHeaderReferal: #FFFBFA; --bgReferal: #FFF8F5; --ReferalInput: #FFE6DE; --refText: #346FF3; --btnPrimary: #346FF3; --btnDisabled: #ECECEC; --text: #000; --textSecondary: #8d939c; --textTertiary: #000; --backdrop: #636363; --borderColor: #EAEEF4; --liveBorderColor: #D5D5D5; --notifBg: #F7FAFF; --paperBg: #E2FFD5; --scannerBg: #FFEAD9; --navBtnBg: #FFF; --navDotsBg-false: #EBF1FF; --navDotsBg-true: #9BABC6; --navBtnShadow: rgb(208 210 220); --filterOptionBg: #FAFAFF; --inputDarkBg: #FFF; --placeholderDarkColor: #BFCAD9; --inputLightBg: #F6F8FB; --placeholderLightColor: #ECECEC; --inputFocusBorderColor: #346FF3; --progress25: #FF667D; --progress50: #140DFA; --progress75: #3CBB00; --underlay: #fbfbfb; --linkColor: #346FF3; --linkWhite: #346FF3; --linkGrey: #346FF3; --primaryLink: #346FF3; --secondaryLink: #346FF3; --switchTrack-false: #EAEEF4; --switchTrack-true: #EAEEF4; --switchThumb-false: #FFF; --switchThumb-true: #346FF3; --disabled: #ECECEC; --boxShadow: #162B740A; --dropdownShadow: #162B7424; --dropdownBg: #FFF; --listDropDownBg: #F7F7FF; --hover: #F7F7FA; --scannerTimeIntervalBg: #F7FAFF; --lossBg: #FFEFEF; --gainBg: #DEFFE7; --inputBorder: #BFCAD9; --sell: #ff5722; --checkboxBorder: #e2e2e2; --horizontalTabBg: #F7FAFF; --tabsBg: #F6F8FB; --activeTabsBg: #FFF; --stoppedBg: #9BABC6; --createBtnBg: #FFFCFA; --cardPlaceHolderColor: #F2F2F2; --backdropBg: #00000080; --redLightBg: #FFE2EB; --greyLightBg: #ECECEC; --greenLightBg: #E2FFD5; --blueLightBg: #F7FAFF; --orangeLightBg: #FFEAD9; --purpleLightBg: #F0E5FF; --yellowLightBg: #FFF9E6; --editContentBg: #EEE6FF; --editContentInputBg: #ffffff60; --editDropdownBg: #FFF; --editDropdownItem: #FFF; --editDropdownItemHover: #F7F7FA; --profileMenuIconSelected-bg: #F7FAFF; --profileMenuIconSelected-fill: #346FF3; --profileMenuIcon-bg: #F6F8FB; --profileMenuIcon-fill: #9BABC6; --textGrey: #000; --stepsCircleBorder: #DDDFFF; --stepsBar: #EAEDF4; --stepsBg: #FFF; --createTabsBg: #EEE6FF; --scanPink: #FF5B8D; --tooltipBg: #000000; --profileInputBorder: #EBEEF4; --editParamsIntervalBg: #F8F5FF; --obBgTechnicals: #ECDBFF; --obBgAlgo: #FCDECA; --obBgScanner: #FFE2E1; --obCreateList: #FFF; --helpBg: #F7FAFF; --disclaimerBg: #F7F7F7; --reRunBacktestBg: #f6f8ff; --reRunBacktestText: #00133F; --hoverReRunBg: #f6f8ff; --toolTipHeader: #F8F9FF; --mtfTitleBg: #fff7f4; --saveBtn: #E9E9FF; --SDesc: #004b71; --homeSideBarBg: #F4F7FF; --homechipPrimary: #004b71; --homechipSecondary: #eaf3f8; --homechipTertiary: #b8c2d1; --sparklelineGreen: #63cb32; --sparklelineRed: #ec2e61; --snackbarYellowBg: #FFF9E6; --snackbarYellowFg: #dd9204;"><div class=""></div><div class="body-loading" style="visibility: visible;"><div id="__next"><main class="jss22" id="main"> <div></div><header class="mainHeader jss56 jss121 jss57" id="mainheader"><div class="jss61" id="headerContainer"><div id="logoSection" class="jss64"><div class="jss65" style="width: 75px;"><span style="box-sizing: border-box; display: inline-block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"><span style="box-sizing: border-box; display: block; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%271580%27%20height=%27522%27/%3e" style="display: block; max-width: 100%; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt="no image" src="https://www.streak.tech//_next/static/media/logo-tm.9a37d03b.png?w=3840&amp;q=75" decoding="async" data-nimg="intrinsic" class="jss65" srcset="https://www.streak.tech//_next/static/media/logo-tm.9a37d03b.png?w=1920&amp;q=75 1x, https://www.streak.tech//_next/static/media/logo-tm.9a37d03b.png?w=3840&amp;q=75 2x" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"></span></div></div><div class="jss67"><a href="/explore/scanner/possible-uptrend?tab=discover"><button type="button" class="jss15 jss76" style="border-radius: 6px;"><p class="jss15" style="font-weight: 500; font-size: 12px; color: var(--linkColor);">Scanners</p></button></a><a href="/explore/strategy/weighted-ma-bullish-trend?tab=discover"><button type="button" class="jss15 jss76" style="border-radius: 6px;"><p class="jss15" style="font-weight: 500; font-size: 12px; color: var(--linkColor);">Strategies</p></button></a><div class="jss91"><a href="/notifications"><div role="button" tabindex="0" class="jss90"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.66 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,lt({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 53.66 64&quot;},e),st||(st=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Icon ionic-md-notifications-outline&quot;,d:&quot;M27 11.14a22.8 22.8 0 0 1 3.65.69 15.65 15.65 0 0 1 11.82 15.36v19.62l1.42 1.44 1.19 1.2H8.58l1.19-1.2 1.42-1.44V27.19A15.65 15.65 0 0 1 23 11.83a28.29 28.29 0 0 1 3.65-.69M26.83 0a4.69 4.69 0 0 0-4.74 4.63.91.91 0 0 0 0 .17V7A20.68 20.68 0 0 0 6.31 27.19v17.59L0 51.17v3.2h53.66v-3.2l-6.31-6.39V27.19A20.69 20.69 0 0 0 31.56 7V4.8A4.67 4.67 0 0 0 27 0h-.17Zm6.32 57.57H20.52a6.31 6.31 0 1 0 12.62.23v-.23Z&quot;})))))} " fill="var(--linkColor)" stroke="" width="18" height="18" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path data-name="Icon ionic-md-notifications-outline" d="M27 11.14a22.8 22.8 0 0 1 3.65.69 15.65 15.65 0 0 1 11.82 15.36v19.62l1.42 1.44 1.19 1.2H8.58l1.19-1.2 1.42-1.44V27.19A15.65 15.65 0 0 1 23 11.83a28.29 28.29 0 0 1 3.65-.69M26.83 0a4.69 4.69 0 0 0-4.74 4.63.91.91 0 0 0 0 .17V7A20.68 20.68 0 0 0 6.31 27.19v17.59L0 51.17v3.2h53.66v-3.2l-6.31-6.39V27.19A20.69 20.69 0 0 0 31.56 7V4.8A4.67 4.67 0 0 0 27 0h-.17Zm6.32 57.57H20.52a6.31 6.31 0 1 0 12.62.23v-.23Z"></path></g></g></svg></div></a></div><div class="jss320 jss111"><button type="button"><div class="jss106"><div class="jss100"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.509 15.006" class="jss101" alt="kite"><path d="M1514.922 933h-14.964l-7.5 7.5 7.5 7.5 15.006-15" transform="translate(-1492.455 -933)" style="fill: rgb(246, 70, 26);"></path><path d="m1591.61 1024.686 7.439 7.439h-14.908Z" transform="translate(-1576.638 -1017.183)" style="opacity: 0.7; fill: rgb(246, 70, 26);"></path></svg><p class="" style="font-weight: 600; font-size: 13px; color: var(--text);">Kite</p></div><div class="jss336 "><div class="jss337 jss69"><div class="jss338 " style="background-image: url(&quot;/_next/static/media/user_img.d20b6a57.png&quot;); background-repeat: no-repeat; background-size: cover; background-position: center center;"></div></div><div></div></div></div></button></div></div></div></header><div class="jss26 "><div class="jss23" id="authScreeens"><div id="portalWindow"><div id="highlightedWindow"></div></div><div class="jss25 jss30" id="leftContainer"><div class="jss955"><div id="headerContainer" class="jss956"><button type="button" class="jss957"><p class="jss958" style="font-weight: 600; font-size: 13px; color: var(--text);">Positions</p><div class="jss959"><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">Total P&amp;L:</p><p class="jss965" style="font-weight: 400; font-size: 13px; color: rgb(0, 0, 0);"><span style="font-family: sans-serif;">₹</span>0.00</p></div><button type="button" aria-label="forward-icon" style="margin-top: 3px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.46 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Q({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 38.46 64&quot;},e),b||(b=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} " fill="var(--text)" stroke="" width="12" height="12" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z" data-name="Path 2037"></path></g></g></svg></button></button><button type="button" class="jss957"><p class="jss958" style="font-weight: 600; font-size: 13px; color: var(--text);">Orderbook</p><div class="jss959"><div class="jss959"><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">Open</p><p class="" style="font-weight: 500; font-size: 13px; color: var(--text);">1</p></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">Executed</p><p class="" style="font-weight: 500; font-size: 13px; color: var(--text);">0</p></div><button type="button" aria-label="forward-icon" style="margin-top: 3px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.46 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Q({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 38.46 64&quot;},e),b||(b=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} " fill="var(--text)" stroke="" width="12" height="12" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z" data-name="Path 2037"></path></g></g></svg></button></button><button type="button" class="jss957"><p class="jss958" style="font-weight: 600; font-size: 13px; color: var(--text);">Live strategies</p><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">0 / 5 </p><button type="button" aria-label="forward-icon" style="margin-top: 3px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.46 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Q({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 38.46 64&quot;},e),b||(b=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} " fill="var(--text)" stroke="" width="12" height="12" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z" data-name="Path 2037"></path></g></g></svg></button></button><button type="button" class="jss957"><p class="jss958" style="font-weight: 600; font-size: 13px; color: var(--text);">Live scanners</p><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">0 / 5 </p><button type="button" aria-label="forward-icon" style="margin-top: 3px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.46 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Q({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 38.46 64&quot;},e),b||(b=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} " fill="var(--text)" stroke="" width="12" height="12" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M38.46 32 7.8 62.66a4.57 4.57 0 0 1-6.46-6.46L25.54 32 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34Z" data-name="Path 2037"></path></g></g></svg></button></button></div></div><div style="height: 60px; width: 1px;"></div><div style="display: flex; width: 100%; min-height: calc(100% - 54px);"><div style="width: 100%;"><div class="jss866"><button type="button" aria-label="back-icon" style="padding-right: 14px; display: flex; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.46 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,D({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 38.46 64&quot;},e),z||(z=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M0 32 30.66 1.34a4.57 4.57 0 1 1 6.47 6.46L12.93 32l24.2 24.2a4.57 4.57 0 1 1-6.47 6.46Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} " fill="var(--text)" stroke="" width="14" height="14" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M0 32 30.66 1.34a4.57 4.57 0 1 1 6.47 6.46L12.93 32l24.2 24.2a4.57 4.57 0 1 1-6.47 6.46Z" data-name="Path 2037"></path></g></g></svg></button><div class="jss1056 jss1060 jss870"><button type="button" class="jss1058 jss871"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 63.97" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,G({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 63.97&quot;},e),R||(R=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;m36.33 11.65 16 16-34.72 34.7L3.34 64A3 3 0 0 1 0 61.31a2.66 2.66 0 0 1 0-.69l1.6-14.26Zm25.87-2.4-7.5-7.49a6 6 0 0 0-8.48 0l-7 7 16 16 7.06-7.07a6 6 0 0 0 0-8.48Z&quot;,&quot;data-name&quot;:&quot;Icon awesome-pen&quot;})))))} jss1059" fill="var(--linkColor)" stroke="" width="10" height="10" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="m36.33 11.65 16 16-34.72 34.7L3.34 64A3 3 0 0 1 0 61.31a2.66 2.66 0 0 1 0-.69l1.6-14.26Zm25.87-2.4-7.5-7.49a6 6 0 0 0-8.48 0l-7 7 16 16 7.06-7.07a6 6 0 0 0 0-8.48Z" data-name="Icon awesome-pen"></path></g></g></svg><p class="jss1057" style="font-weight: 600; font-size: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">testtwooo  </p></button><button type="button" class="jss872" aria-label="fav-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 60.86" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,qt({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 60.86&quot;},e),Jt||(Jt=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;path&quot;,{d:&quot;m64 23.26-22.11-3.23L32 0l-9.89 20.02L0 23.25l16 15.6-3.78 22.01L32 50.46l19.78 10.4-3.78-22 16-15.6z&quot;,&quot;data-name&quot;:&quot;Layer 1&quot;}))))} " fill="var(--textSecondary)" stroke="" width="11" height="11" style="margin-left: 4px; pointer-events: none;"><g data-name="Layer 2"><path d="m64 23.26-22.11-3.23L32 0l-9.89 20.02L0 23.25l16 15.6-3.78 22.01L32 50.46l19.78 10.4-3.78-22 16-15.6z" data-name="Layer 1"></path></g></svg></button></div><button type="button" class="jss928"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Xn({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 64&quot;},e),Kn||(Kn=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M62.57 27.38A6 6 0 0 1 56 29a2.27 2.27 0 0 0-2.37.45L40.37 42.72a2.12 2.12 0 0 0-.45 2.37 5.78 5.78 0 0 1-1.57 6.54 6.1 6.1 0 0 1-8.35-.45L12.65 33.92a6.12 6.12 0 0 1-.45-8.34A5.82 5.82 0 0 1 18.74 24a2.27 2.27 0 0 0 2.37-.45l13.18-13.2A2.34 2.34 0 0 0 34.85 8a5.8 5.8 0 0 1 1.58-6.54 6.1 6.1 0 0 1 8.34.45L62 19.15a5.86 5.86 0 0 1 .57 8.23ZM22.8 46.22l-5.08-5.08a1.43 1.43 0 0 0-1.35-.45 2 2 0 0 0-1.24.68L.37 61.22a1.73 1.73 0 0 0 .11 2.26 1.61 1.61 0 0 0 2.26.11l19.83-14.78a2 2 0 0 0 .68-1.24 2 2 0 0 0-.45-1.35Z&quot;})))))} jss930" fill="var(--linkColor)" stroke="" width="14" height="14" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M62.57 27.38A6 6 0 0 1 56 29a2.27 2.27 0 0 0-2.37.45L40.37 42.72a2.12 2.12 0 0 0-.45 2.37 5.78 5.78 0 0 1-1.57 6.54 6.1 6.1 0 0 1-8.35-.45L12.65 33.92a6.12 6.12 0 0 1-.45-8.34A5.82 5.82 0 0 1 18.74 24a2.27 2.27 0 0 0 2.37-.45l13.18-13.2A2.34 2.34 0 0 0 34.85 8a5.8 5.8 0 0 1 1.58-6.54 6.1 6.1 0 0 1 8.34.45L62 19.15a5.86 5.86 0 0 1 .57 8.23ZM22.8 46.22l-5.08-5.08a1.43 1.43 0 0 0-1.35-.45 2 2 0 0 0-1.24.68L.37 61.22a1.73 1.73 0 0 0 .11 2.26 1.61 1.61 0 0 0 2.26.11l19.83-14.78a2 2 0 0 0 .68-1.24 2 2 0 0 0-.45-1.35Z"></path></g></g></svg></button><div class="jss879"><div style="display: flex;"><p class="" style="font-weight: 500; font-size: 12px; color: var(--text);">Public Sharing</p><label class="cSwitchLabel undefined" for="sharing_switch"><input class="cSwitchInput" type="checkbox" id="sharing_switch"><span class="cSwitchSlider"></span></label></div></div></div><div class="jss867"><div class="jss1070 jss904"><button type="button" class="jss1071 jss902" style="cursor: default;"><div class="jss1072"><p class="" style="font-weight: 600; font-size: 14px; color: var(--text);">Conditions</p></div></button><div class="jss1076 jss903" style="max-height: unset;"></div></div><div class="jss863"><div class="jss874"><div class="jss906"><p class="" style="font-weight: 600; font-size: 12px; color: var(--text); white-space: nowrap; width: 70px;">Scan on</p><div class="jss1077"><div class="jss1079"><button type="button" class="jss1080 jss878"><p class="jss1086 jss877" style="font-weight: 400; font-size: 11px; color: var(--text);">Nifty 500</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 38.46" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,x({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 38.46&quot;},e),P||(P=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M32 38.46 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34L32 25.54l24.2-24.2a4.57 4.57 0 0 1 6.46 6.46Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} jss1091" fill="#346FF3" stroke="" width="10" height="10" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M32 38.46 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34L32 25.54l24.2-24.2a4.57 4.57 0 0 1 6.46 6.46Z" data-name="Path 2037"></path></g></g></svg></button></div></div></div></div><div class="jss874" style="margin-top: 0px; margin-left: 20px;"><div class="jss906"><p class="" style="font-weight: 600; font-size: 12px; color: var(--text); white-space: nowrap; width: 80px;">Chart Type</p><div class="jss1077"><div class="jss1079"><button type="button" class="jss1080 jss878"><p class="jss1086 jss877" style="font-weight: 400; font-size: 11px; color: var(--text);">Candlestick</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 38.46" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,x({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 38.46&quot;},e),P||(P=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M32 38.46 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34L32 25.54l24.2-24.2a4.57 4.57 0 0 1 6.46 6.46Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} jss1091" fill="#346FF3" stroke="" width="10" height="10" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M32 38.46 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34L32 25.54l24.2-24.2a4.57 4.57 0 0 1 6.46 6.46Z" data-name="Path 2037"></path></g></g></svg></button></div></div></div><div class="jss906" style="margin-left: 20px;"><p class="" style="font-weight: 600; font-size: 12px; color: var(--text); white-space: nowrap; width: 90px;">Time Frame</p><div class="jss1077"><div class="jss1079"><button type="button" class="jss1080 jss878"><p class="jss1086 jss877" style="font-weight: 400; font-size: 11px; color: var(--text);">1 Day</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 38.46" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,x({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 38.46&quot;},e),P||(P=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M32 38.46 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34L32 25.54l24.2-24.2a4.57 4.57 0 0 1 6.46 6.46Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} jss1091" fill="#346FF3" stroke="" width="10" height="10" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M32 38.46 1.34 7.8A4.57 4.57 0 0 1 7.8 1.34L32 25.54l24.2-24.2a4.57 4.57 0 0 1 6.46 6.46Z" data-name="Path 2037"></path></g></g></svg></button></div></div></div></div></div><div class="jss869"><p class="jss901" style="font-weight: 500; font-size: 13px; color: var(--text);">Scanner Description</p><p class="" style="border-color: rgb(191, 202, 217); border-width: 1px; width: 100%; padding: 10px; border-radius: 8px; background-color: var(--tabsBg); font-size: 13px; resize: none; box-sizing: border-box; overflow: scroll;">AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAs</p></div><div style="display: flex; margin-top: 20px; align-items: center; justify-content: space-between;"><div style="display: flex; margin-left: 10px;"><button type="button" class="jss1 jss3 jss880" style="border-radius: 6px;"><p class="jss15" style="font-weight: 500; font-size: 12px; color: var(--text);">Run &amp; Save Scan</p></button><button type="button" class="jss2 jss10 jss880" style="border-radius: 6px;"><p class="jss15" style="font-weight: 500; font-size: 12px; color: rgb(52, 111, 243);">Take Live</p></button><button type="button" class="jss865" aria-label="copy-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54.56 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Jr({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 54.56 64&quot;},e),Xr||(Xr=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 54137&quot;},c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7265&quot;,d:&quot;M9.7 44.19V14.55H5.26A5.26 5.26 0 0 0 0 19.81v38.93A5.25 5.25 0 0 0 5.26 64h29.49A5.26 5.26 0 0 0 40 58.74V54.3H19.8A10.1 10.1 0 0 1 9.7 44.21Z&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7266&quot;,d:&quot;m53 10.85-9.38-9.3A5.17 5.17 0 0 0 40 0H19.81a5.26 5.26 0 0 0-5.26 5.26v38.93a5.27 5.27 0 0 0 5.26 5.26H49.3a5.27 5.27 0 0 0 5.26-5.26V14.62A5.3 5.3 0 0 0 53 10.85Zm-27.29 3.5h12.14a2.43 2.43 0 1 1 0 4.85H25.73a2.43 2.43 0 0 1 0-4.85Zm17.59 25.8H25.73a2.43 2.43 0 0 1 0-4.85h17.59a2.43 2.43 0 0 1 0 4.85Zm0-10.52H25.73a2.43 2.43 0 0 1 0-4.85h17.59a2.43 2.43 0 0 1 0 4.85Z&quot;}))))))} " fill="#346FF3" stroke="" width="12" height="12" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><g data-name="Group 54137"><path data-name="Path 7265" d="M9.7 44.19V14.55H5.26A5.26 5.26 0 0 0 0 19.81v38.93A5.25 5.25 0 0 0 5.26 64h29.49A5.26 5.26 0 0 0 40 58.74V54.3H19.8A10.1 10.1 0 0 1 9.7 44.21Z"></path><path data-name="Path 7266" d="m53 10.85-9.38-9.3A5.17 5.17 0 0 0 40 0H19.81a5.26 5.26 0 0 0-5.26 5.26v38.93a5.27 5.27 0 0 0 5.26 5.26H49.3a5.27 5.27 0 0 0 5.26-5.26V14.62A5.3 5.3 0 0 0 53 10.85Zm-27.29 3.5h12.14a2.43 2.43 0 1 1 0 4.85H25.73a2.43 2.43 0 0 1 0-4.85Zm17.59 25.8H25.73a2.43 2.43 0 0 1 0-4.85h17.59a2.43 2.43 0 0 1 0 4.85Zm0-10.52H25.73a2.43 2.43 0 0 1 0-4.85h17.59a2.43 2.43 0 0 1 0 4.85Z"></path></g></g></g></svg></button><button type="button" class="jss15 jss880 jss864" style="border-radius: 6px; background-color: rgb(247, 250, 255);"><p class="jss15" style="font-weight: 500; font-size: 12px; color: rgb(52, 111, 243);">View conditions</p></button></div><div><button type="button" class="jss15 jss880" style="border-radius: 6px; background-color: rgb(247, 250, 255);"><p class="jss15" style="font-weight: 500; font-size: 12px; color: rgb(52, 111, 243);">Hide description</p></button></div></div></div><div><div class="jss983" id="scanner"><div class="jss985"><div style="margin-block: 30px;"></div><div class="jss988 "><div class="jss1006"><p class="" style="font-weight: 600; font-size: 14px; color: var(--text); margin-right: 10px;">238</p><p class="" style="font-weight: 600; font-size: 14px; color: var(--text); white-space: nowrap;">Scan results</p><p class="" style="font-weight: 400; font-size: 11px; color: var(--SDesc); margin-left: 10px;">Last ran at 11:28 AM 12/03/25</p></div><div class="jss1012"><div class="jss1102 jss1097"><div class="jss1103 jss1100 jss1041"><div class="jss1113"><div class="jss1104"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,pa({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 64&quot;},e),ma||(ma=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;M24.12 10.65a13.48 13.48 0 0 0-13.48 13.47 1.66 1.66 0 0 0 1.66 1.63 1.62 1.62 0 0 0 1.62-1.63 10.19 10.19 0 0 1 10.2-10.19 1.62 1.62 0 0 0 1.62-1.63 1.65 1.65 0 0 0-1.62-1.65Z&quot;}),c.createElement(&quot;path&quot;,{d:&quot;M26.1 0a26.1 26.1 0 0 0 0 52.19A26.1 26.1 0 0 0 26.1 0Zm0 47.28a21.19 21.19 0 1 1 21.18-21.19 21.2 21.2 0 0 1-21.19 21.19ZM63.28 59.83 51.46 48A2.44 2.44 0 0 0 48 51.46l11.83 11.82a2.44 2.44 0 0 0 3.45-3.45Z&quot;})))))} " fill="var(--placeholderDarkColor)" stroke="" width="14" height="14" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="M24.12 10.65a13.48 13.48 0 0 0-13.48 13.47 1.66 1.66 0 0 0 1.66 1.63 1.62 1.62 0 0 0 1.62-1.63 10.19 10.19 0 0 1 10.2-10.19 1.62 1.62 0 0 0 1.62-1.63 1.65 1.65 0 0 0-1.62-1.65Z"></path><path d="M26.1 0a26.1 26.1 0 0 0 0 52.19A26.1 26.1 0 0 0 26.1 0Zm0 47.28a21.19 21.19 0 1 1 21.18-21.19 21.2 21.2 0 0 1-21.19 21.19ZM63.28 59.83 51.46 48A2.44 2.44 0 0 0 48 51.46l11.83 11.82a2.44 2.44 0 0 0 3.45-3.45Z"></path></g></g></svg></div><input id="" class="jss1106 jss1099 undefined" type="text" placeholder="Search from results" value="" style="border-color: var(--inputBorder); padding-left: 38px;"></div></div></div><button type="button" class="jss2 jss10 jss997" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 53.33" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Yr({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 53.33&quot;},e),yr||(yr=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;path&quot;,{d:&quot;M63.44 22.4 39.93.4A1.23 1.23 0 0 0 39 0c-.73 0-1.66.55-1.66 1.33v11a.71.71 0 0 1-.6.68C13.34 16.66 3.49 34.14 0 52.31c-.13.71.83 1.38 1.29.8a42.45 42.45 0 0 1 35.33-17.9.82.82 0 0 1 .7.8v10.84a1.43 1.43 0 0 0 1.59 1.26 1.38 1.38 0 0 0 .81-.37l23.69-22.39A1.85 1.85 0 0 0 64 24a2.22 2.22 0 0 0-.56-1.6Z&quot;,&quot;data-name&quot;:&quot;Layer 1&quot;}))))} " fill="#3E72FF" stroke="" width="12" height="12" style="margin-right: 10px; pointer-events: none;"><g data-name="Layer 2"><path d="M63.44 22.4 39.93.4A1.23 1.23 0 0 0 39 0c-.73 0-1.66.55-1.66 1.33v11a.71.71 0 0 1-.6.68C13.34 16.66 3.49 34.14 0 52.31c-.13.71.83 1.38 1.29.8a42.45 42.45 0 0 1 35.33-17.9.82.82 0 0 1 .7.8v10.84a1.43 1.43 0 0 0 1.59 1.26 1.38 1.38 0 0 0 .81-.37l23.69-22.39A1.85 1.85 0 0 0 64 24a2.22 2.22 0 0 0-.56-1.6Z" data-name="Layer 1"></path></g></svg><p class="jss15 jss1000" style="font-weight: 500; font-size: 12px; color: rgb(52, 111, 243);">Share</p></button><div class="jss320"><button type="button"><div style="margin-top: 5px;"><svg data-name="Component 28 \u2013 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 27" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Xt({&quot;data-name&quot;:&quot;Component 28 \\u2013 1&quot;,xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 1 27&quot;},e),Kt||(Kt=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 4590&quot;,transform:&quot;rotate(90 3.75 3.25)&quot;},c.createElement(&quot;circle&quot;,{&quot;data-name&quot;:&quot;Ellipse 334&quot;,cx:3.5,cy:3.5,r:3.5,transform:&quot;translate(10.499)&quot;}),c.createElement(&quot;circle&quot;,{&quot;data-name&quot;:&quot;Ellipse 460&quot;,cx:3.5,cy:3.5,r:3.5,transform:&quot;translate(.499)&quot;}),c.createElement(&quot;circle&quot;,{&quot;data-name&quot;:&quot;Ellipse 335&quot;,cx:3.5,cy:3.5,r:3.5,transform:&quot;translate(20.499)&quot;}))))} " fill="var(--textSecondary)" stroke="" width="20" height="20" style="pointer-events: none;"><g data-name="Group 4590" transform="rotate(90 3.75 3.25)"><circle data-name="Ellipse 334" cx="3.5" cy="3.5" r="3.5" transform="translate(10.499)"></circle><circle data-name="Ellipse 460" cx="3.5" cy="3.5" r="3.5" transform="translate(.499)"></circle><circle data-name="Ellipse 335" cx="3.5" cy="3.5" r="3.5" transform="translate(20.499)"></circle></g></svg></div></button></div></div></div><div style="margin-top: 0px;"><div class="jss1004"><table role="table" class="jss1039"><thead><tr role="row"><th class="jss1008" colspan="1" role="columnheader" title="Sort by Symbol" style="cursor: pointer;"><div class="jss1007"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">Symbol</p></div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 38.46" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Y({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 38.46&quot;},e),y||(y=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;path&quot;,{d:&quot;m32 0 30.66 30.66a4.57 4.57 0 1 1-6.46 6.47L32 12.93 7.8 37.13a4.57 4.57 0 1 1-6.46-6.47Z&quot;,&quot;data-name&quot;:&quot;Path 2037&quot;})))))} " fill="var(--textSecondary)" stroke="" width="9" height="9" style="margin-left: 4px; pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><path d="m32 0 30.66 30.66a4.57 4.57 0 1 1-6.46 6.47L32 12.93 7.8 37.13a4.57 4.57 0 1 1-6.46-6.47Z" data-name="Path 2037"></path></g></g></svg></div></th><th class="jss1008" colspan="1" role="columnheader" title="Sort by %Change" style="cursor: pointer;"><div class="jss1007"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">LTP</p></div></div></th><th class="jss1008" colspan="1" role="columnheader" title="Sort by Volume" style="cursor: pointer;"><div class="jss1007"><div style="display: flex; align-items: center;"><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">Volume</p><div aria-expanded="false" style="margin-left: 4px; margin-top: 2px; align-items: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,rr({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 64 64&quot;},e),ar||(ar=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 2&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Layer 1&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Icon feather-info&quot;},c.createElement(&quot;path&quot;,{d:&quot;M32 64a32 32 0 1 1 32-32 32 32 0 0 1-32 32Zm0-58.18A26.18 26.18 0 1 0 58.18 32 26.2 26.2 0 0 0 32 5.82Z&quot;,&quot;data-name&quot;:&quot;Path 6990&quot;}),c.createElement(&quot;path&quot;,{d:&quot;M32 46.55a2.91 2.91 0 0 1-2.91-2.91V32a2.91 2.91 0 1 1 5.82 0v11.64A2.91 2.91 0 0 1 32 46.55Z&quot;,&quot;data-name&quot;:&quot;Path 6991&quot;}),c.createElement(&quot;path&quot;,{d:&quot;M32 23.28a3 3 0 0 1-1.11-.23 3.46 3.46 0 0 1-.5-.27 2.51 2.51 0 0 1-.44-.35 3.16 3.16 0 0 1-.37-.45 4 4 0 0 1-.28-.5c-.05-.18-.11-.37-.15-.55a2.74 2.74 0 0 1-.06-.56 2.86 2.86 0 0 1 .06-.58c0-.17.1-.37.15-.54a4.16 4.16 0 0 1 .28-.51 2.85 2.85 0 0 1 .81-.79 2.22 2.22 0 0 1 .5-.27 2.53 2.53 0 0 1 .55-.18 3 3 0 0 1 2.61.8 3.08 3.08 0 0 1 .37.44 4.16 4.16 0 0 1 .28.51c0 .17.11.37.15.54a2.86 2.86 0 0 1 .06.58 2.74 2.74 0 0 1-.06.56c0 .18-.1.37-.15.55a4 4 0 0 1-.28.5 3.16 3.16 0 0 1-.37.45 2.89 2.89 0 0 1-2.05.85Z&quot;,&quot;data-name&quot;:&quot;Path 6992&quot;}))))))} " fill="var(--textSecondary)" stroke="" width="12" height="12" style="pointer-events: none;"><g data-name="Layer 2"><g data-name="Layer 1"><g data-name="Icon feather-info"><path d="M32 64a32 32 0 1 1 32-32 32 32 0 0 1-32 32Zm0-58.18A26.18 26.18 0 1 0 58.18 32 26.2 26.2 0 0 0 32 5.82Z" data-name="Path 6990"></path><path d="M32 46.55a2.91 2.91 0 0 1-2.91-2.91V32a2.91 2.91 0 1 1 5.82 0v11.64A2.91 2.91 0 0 1 32 46.55Z" data-name="Path 6991"></path><path d="M32 23.28a3 3 0 0 1-1.11-.23 3.46 3.46 0 0 1-.5-.27 2.51 2.51 0 0 1-.44-.35 3.16 3.16 0 0 1-.37-.45 4 4 0 0 1-.28-.5c-.05-.18-.11-.37-.15-.55a2.74 2.74 0 0 1-.06-.56 2.86 2.86 0 0 1 .06-.58c0-.17.1-.37.15-.54a4.16 4.16 0 0 1 .28-.51 2.85 2.85 0 0 1 .81-.79 2.22 2.22 0 0 1 .5-.27 2.53 2.53 0 0 1 .55-.18 3 3 0 0 1 2.61.8 3.08 3.08 0 0 1 .37.44 4.16 4.16 0 0 1 .28.51c0 .17.11.37.15.54a2.86 2.86 0 0 1 .06.58 2.74 2.74 0 0 1-.06.56c0 .18-.1.37-.15.55a4 4 0 0 1-.28.5 3.16 3.16 0 0 1-.37.45 2.89 2.89 0 0 1-2.05.85Z" data-name="Path 6992"></path></g></g></g></svg></div></div></div></th><th class="jss1008" colspan="1" role="columnheader" title=""><div class="jss1007"><div></div></div></th></tr></thead><tbody role="rowgroup"><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">AADHARHFC</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 424.00</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--red);">-1.81%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">122681</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">ABFRL</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 240.77</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--green);">+0.33%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">610065</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">ADANIENSOL</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 762.60</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--green);">+0.20%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">684120</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">ADANIGREEN</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 818.55</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--red);">-0.69%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">1532909</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">ADANIPOWER</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 508.80</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--red);">-0.26%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">2212000</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">AEGISLOG</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 724.45</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--green);">+1.78%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">806765</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">AFFLE</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 1441.50</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--red);">-0.70%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">45979</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">AIAENG</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 3145.30</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--green);">+0.26%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">3758</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">AJANTPHARM</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 2534.75</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--green);">+1.06%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">37174</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr><tr role="row" class="jss1023" id="tableRow"><td role="cell" style="width: 45%; padding: 0px;"><button type="button" class="jss1022"><div style="display: inline-grid; text-align: left;"><div style="white-space: nowrap; overflow: hidden;"><div style="display: inline-block;"><div style="display: flex; flex-direction: row; align-items: baseline; overflow: hidden;"><p class="" style="font-weight: 500; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--text);">ALKEM</p></div></div></div><p class="" style="font-weight: 400; font-size: 12px; color: var(--textSecondary);">NSE</p></div></button></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1114 jss1002"><div class="jss1115"><p class="jss1118 jss1003" style="font-weight: 400; font-size: 11px; color: var(--text);"><span style="font-family: sans-serif;">₹</span> 4712.20</p></div><div class="jss1116"><p class="jss1117" style="font-weight: 400; font-size: 11px; color: var(--red);">-1.37%</p></div></div></td><td role="cell" style="width: 15%; padding: 0px;"><div><p class="" style="font-weight: 400; font-size: 12px; color: var(--text);">34715</p></div></td><td role="cell" style="width: 20%; padding: 0px;"><div class="jss1025" style="right: 14px;"><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,Is({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),vs||(vs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56233&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3512&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:8,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:7.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7436&quot;,d:&quot;M15.692 9.254v3.753&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7437&quot;,d:&quot;M15.692 23.016v5&quot;,fill:&quot;#4aa33d&quot;,stroke:&quot;#4aa33d&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7438&quot;,d:&quot;M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#4aa33d&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7439&quot;,d:&quot;M24.449 13.007v6.255&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7440&quot;,d:&quot;M24.449 25.518v5&quot;,fill:&quot;none&quot;,stroke:&quot;#d13c3e&quot;,strokeLinecap:&quot;round&quot;}),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7441&quot;,d:&quot;M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z&quot;,fill:&quot;#d13c3e&quot;}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56233"><g data-name="Rectangle 3512" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="8" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="7.5" fill="none"></rect></g><path data-name="Path 7436" d="M15.692 9.254v3.753" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7437" d="M15.692 23.016v5" fill="#4aa33d" stroke="#4aa33d" stroke-linecap="round"></path><path data-name="Path 7438" d="M12.564 14.634a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v6.756a2.252 2.252 0 0 1-2.252 2.252h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#4aa33d"></path><path data-name="Path 7439" d="M24.449 13.007v6.255" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7440" d="M24.449 25.518v5" fill="none" stroke="#d13c3e" stroke-linecap="round"></path><path data-name="Path 7441" d="M21.321 20.889a2.252 2.252 0 0 1 2.252-2.252h1.748a2.252 2.252 0 0 1 2.252 2.252v3a2.252 2.252 0 0 1-2.252 2.254h-1.748a2.252 2.252 0 0 1-2.252-2.252Z" fill="#d13c3e"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,ps({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ms||(ms=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56241&quot;},c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Rectangle 3513&quot;,fill:&quot;#fff&quot;,stroke:&quot;#eaeef4&quot;},c.createElement(&quot;rect&quot;,{width:40,height:40,rx:6,stroke:&quot;none&quot;}),c.createElement(&quot;rect&quot;,{x:.5,y:.5,width:39,height:39,rx:5.5,fill:&quot;none&quot;})),c.createElement(&quot;path&quot;,{&quot;data-name&quot;:&quot;Path 7435&quot;,d:&quot;m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523&quot;,fill:&quot;none&quot;,stroke:&quot;#346ff3&quot;,strokeLinecap:&quot;round&quot;,strokeLinejoin:&quot;round&quot;,strokeWidth:1.4}))))} " fill="blue" stroke="" width="32" height="32" style="pointer-events: none;"><g data-name="Group 56241"><g data-name="Rectangle 3513" fill="#fff" stroke="#eaeef4"><rect width="40" height="40" rx="6" stroke="none"></rect><rect x="0.5" y="0.5" width="39" height="39" rx="5.5" fill="none"></rect></g><path data-name="Path 7435" d="m13.35 26.278 4.871-6.408 3.576 3.086 4.426-8.914 3.086 1.523" fill="none" stroke="#346ff3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"></path></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,gs({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),ds||(ds=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56239&quot;,transform:&quot;translate(-1183 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3515&quot;,width:40,height:40,rx:6,transform:&quot;translate(1183 816)&quot;,fill:&quot;rgba(52,111,243,0.11)&quot;}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1198 842)&quot;,fill:&quot;#346ff3&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;B&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56239" transform="translate(-1183 -816)"><rect data-name="Rectangle 3515" width="40" height="40" rx="6" transform="translate(1183 816)" fill="rgba(52,111,243,0.11)"></rect><text transform="translate(1198 842)" fill="#346ff3" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">B</tspan></text></g></svg></button><button type="button" class="jss1 jss1019" style="border-radius: 6px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" class="icon icon-function(e){return c.createElement(&quot;svg&quot;,us({xmlns:&quot;http://www.w3.org/2000/svg&quot;,viewBox:&quot;0 0 40 40&quot;},e),fs||(fs=c.createElement(&quot;g&quot;,{&quot;data-name&quot;:&quot;Group 56240&quot;,transform:&quot;translate(-1247 -816)&quot;},c.createElement(&quot;rect&quot;,{&quot;data-name&quot;:&quot;Rectangle 3514&quot;,width:40,height:40,rx:6,transform:&quot;translate(1247 816)&quot;,fill:&quot;rgba(247,61,22,0.11)&quot;,opacity:.997}),c.createElement(&quot;text&quot;,{transform:&quot;translate(1262 842)&quot;,fill:&quot;#f73d16&quot;,fontSize:16,fontFamily:&quot;Poppins-SemiBold, Poppins&quot;,fontWeight:600},c.createElement(&quot;tspan&quot;,{x:0,y:0},&quot;S&quot;)))))} " fill="blue" stroke="" width="30" height="30" style="pointer-events: none;"><g data-name="Group 56240" transform="translate(-1247 -816)"><rect data-name="Rectangle 3514" width="40" height="40" rx="6" transform="translate(1247 816)" fill="rgba(247,61,22,0.11)" opacity="0.997"></rect><text transform="translate(1262 842)" fill="#f73d16" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">S</tspan></text></g></svg></button></div></td></tr></tbody></table><div class="jss1042"><p class="" style="font-weight: 400; font-size: 11px; color: var(--text);">Showing 10 of 238</p><button type="button" class="jss15 jss1043" style="border-radius: 6px;"><p class="jss15" style="font-weight: 500; font-size: 11px; color: rgb(52, 111, 243);">View all</p></button></div></div></div></div></div></div></div></div></div><aside class="jss31 jss33" id="sidebar" style="position: absolute;"></aside></div></div><div class="snackbar-container hideScrollbar"></div><div id="footer"></div></main></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"scannerData":{},"query":{"name":"saaa-784807"}},"__N_SSG":true},"page":"/scanner/[name]","query":{"name":"saaa-784807"},"buildId":"CpdlkHZsLYmBkOkZ7W6yG","isFallback":false,"gsp":true,"scriptLoader":[]}</script></div><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;91f10796fe5c380b&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfSpeedBrain&quot;:true,&quot;cfCacheStatus&quot;:true}},&quot;version&quot;:&quot;2025.1.0&quot;,&quot;token&quot;:&quot;48e6f40a1a3a4f2f8aa26ca5d56e0db0&quot;}" crossorigin="anonymous"></script>
+<next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;">Streak |</p></next-route-announcer><script src="/_next/static/chunks/7083-9c63fdc4eec7f340.js"></script><script src="/_next/static/chunks/9019-794e28dadb2a3625.js"></script><script src="/_next/static/chunks/pages/explore/scanner/%5Bname%5D-51d0c9ad78d23871.js"></script><script src="/_next/static/chunks/pages/explore/strategy/%5Bid%5D-04a5f76be7363356.js"></script><script src="/_next/static/chunks/pages/notifications-e574d150403730ba.js"></script></body></html>
